@@ -85,7 +85,7 @@ class CkanSessionExtension(SessionExtension):
             revision_cls = obj.__revision_class__
             revision_table = orm.class_mapper(revision_cls).mapped_table
             ## when a normal active transaction happens
-    
+
             ### this is an sql statement as we do not want it in object cache
             session.execute(
                 revision_table.update().where(
@@ -161,3 +161,21 @@ def engine_is_pg(sa_engine=None):
     # According to http://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql
     # all Postgres driver names start with `postgres`
     return (sa_engine or engine).url.drivername.startswith('postgres')
+
+#Postgres database reset Fix
+#This code prevents 500 error to be shown
+#http://docs.sqlalchemy.org/en/latest/core/pooling.html
+from sqlalchemy import exc
+from sqlalchemy import event
+from sqlalchemy.pool import Pool
+
+@event.listens_for(Pool, "checkout")
+def ping_connection(dbapi_connection, connection_record, connection_proxy):
+    cursor = dbapi_connection.cursor()
+    try:
+        cursor.execute("SELECT 1")
+    except:
+        # raise DisconnectionError - pool will try
+        # connecting again up to three times before raising.
+        raise exc.DisconnectionError()
+    cursor.close()

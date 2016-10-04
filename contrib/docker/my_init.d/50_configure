@@ -28,7 +28,12 @@ write_config () {
       "error_email_from = ckan@$(hostname -f)" \
       "ckan.site_url = http://192.168.0.6" \
       "ckan.locale_default = en_GB" \
-      "ckan.locales_filtered_out = en"
+      "ckan.locales_filtered_out = en" \
+      "ckan.recaptcha.version = 1" \
+      "ckan.recaptcha.publickey = ${RECAPTCHA_PUBLIC_KEY}" \
+      "ckan.recaptcha.privatekey = ${RECAPTCHA_PRIVATE_KEY}" \
+      "ckan.auth.user_create_groups = true" \
+      "ckan.auth.user_create_organizations = true"
 
   if [ -n "$ERROR_EMAIL" ]; then
     sed -i -e "s&^#email_to.*&email_to = ${ERROR_EMAIL}&" "$CONFIG"

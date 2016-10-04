@@ -2517,6 +2517,10 @@ msgstr "Add Group"
 msgid "Search groups..."
 msgstr "Search groups..."
 
+#: ckan/templates/group/index.html:20
+msgid "Search datasets..."
+msgstr "Search benchmarks..."
+
 #: ckan/templates/group/index.html:20 ckan/templates/group/read.html:16
 #: ckan/templates/organization/bulk_process.html:97
 #: ckan/templates/organization/read.html:20
@@ -2860,7 +2864,7 @@ msgstr "E.g. environment"
 
 #: ckan/templates/home/snippets/search.html:6
 msgid "Search data"
-msgstr "Search data"
+msgstr "Search benchmarks"
 
 #: ckan/templates/home/snippets/search.html:16
 msgid "Popular tags"

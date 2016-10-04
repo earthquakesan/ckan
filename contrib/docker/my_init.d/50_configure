@@ -33,7 +33,12 @@ write_config () {
       "ckan.recaptcha.publickey = ${RECAPTCHA_PUBLIC_KEY}" \
       "ckan.recaptcha.privatekey = ${RECAPTCHA_PRIVATE_KEY}" \
       "ckan.auth.user_create_groups = true" \
-      "ckan.auth.user_create_organizations = true"
+      "ckan.auth.user_delete_groups = true" \
+      "ckan.auth.user_create_organizations = false" \
+      "ckan.auth.user_delete_organizations = false" \
+      "ckan.auth.create_unowned_dataset = true" \
+      "ckan.auth.create_dataset_if_not_in_organization = true"
+
 
   if [ -n "$ERROR_EMAIL" ]; then
     sed -i -e "s&^#email_to.*&email_to = ${ERROR_EMAIL}&" "$CONFIG"

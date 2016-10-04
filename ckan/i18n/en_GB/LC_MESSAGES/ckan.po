@@ -1,7 +1,7 @@
 # Translations template for ckan.
 # Copyright (C) 2015 ORGANIZATION
 # This file is distributed under the same license as the ckan project.
-# 
+#
 # Translators:
 # Adrià Mercader <adria.mercader@okfn.org>, 2015
 # darwinp <darwinpeltan@gmail.com>, 2013
@@ -430,7 +430,7 @@ msgstr "Parameter \"{parameter_name}\" is not an integer"
 #: ckan/controllers/package.py:1424 ckan/controllers/package.py:1461
 #: ckan/controllers/package.py:1574
 msgid "Dataset not found"
-msgstr "Dataset not found"
+msgstr "Benchmark not found"
 
 #: ckan/controllers/package.py:327 ckan/controllers/package.py:367
 #: ckan/controllers/package.py:429 ckan/controllers/package.py:763
@@ -449,17 +449,17 @@ msgstr "Invalid revision format: %r"
 
 #: ckan/controllers/package.py:393
 msgid ""
-"Viewing {package_type} datasets in {format} format is not supported "
+"Viewing {package_type} benchmarks in {format} format is not supported "
 "(template file {file} not found)."
-msgstr "Viewing {package_type} datasets in {format} format is not supported (template file {file} not found)."
+msgstr "Viewing {package_type} benchmarks in {format} format is not supported (template file {file} not found)."
 
 #: ckan/controllers/package.py:438
 msgid "CKAN Dataset Revision History"
-msgstr "CKAN Dataset Revision History"
+msgstr "CKAN Benchmark Revision History"
 
 #: ckan/controllers/package.py:441
 msgid "Recent changes to CKAN Dataset: "
-msgstr "Recent changes to CKAN Dataset: "
+msgstr "Recent changes to CKAN Benchmark: "
 
 #: ckan/controllers/package.py:498
 msgid "Unauthorized to create a package"
@@ -479,13 +479,13 @@ msgid "Resource not found"
 msgstr "Resource not found"
 
 #: ckan/controllers/package.py:653
-msgid "Unauthorized to update dataset"
-msgstr "Unauthorised to update dataset"
+msgid "Unauthorized to update benchmark"
+msgstr "Unauthorised to update benchmark"
 
 #: ckan/controllers/package.py:655 ckan/controllers/package.py:692
 #: ckan/controllers/package.py:721
-msgid "The dataset {id} could not be found."
-msgstr "The dataset {id} could not be found."
+msgid "The benchmark {id} could not be found."
+msgstr "The benchmark {id} could not be found."
 
 #: ckan/controllers/package.py:659
 msgid "You must add at least one data resource"
@@ -513,7 +513,7 @@ msgstr "Unable to update search index."
 
 #: ckan/controllers/package.py:1036
 msgid "Dataset has been deleted."
-msgstr "Dataset has been deleted."
+msgstr "Benchmark has been deleted."
 
 #: ckan/controllers/package.py:1041 ckan/controllers/package.py:1059
 #, python-format
@@ -533,8 +533,8 @@ msgstr "Unauthorised to delete resource %s"
 #: ckan/controllers/package.py:1325 ckan/controllers/package.py:1426
 #: ckan/controllers/package.py:1463 ckan/controllers/package.py:1576
 #, python-format
-msgid "Unauthorized to read dataset %s"
-msgstr "Unauthorised to read dataset %s"
+msgid "Unauthorized to read benchmark %s"
+msgstr "Unauthorised to read benchmark %s"
 
 #: ckan/controllers/package.py:1133 ckan/controllers/package.py:1597
 msgid "Resource view not found"
@@ -600,7 +600,7 @@ msgstr "Recent changes to the CKAN repository."
 #: ckan/controllers/revision.py:108
 #, python-format
 msgid "Datasets affected: %s.\n"
-msgstr "Datasets affected: %s.\n"
+msgstr "Benchmarks affected: %s.\n"
 
 #: ckan/controllers/revision.py:188
 msgid "Revision updated"
@@ -760,8 +760,8 @@ msgid "Redirecting to external site is not allowed."
 msgstr "Redirecting to external site is not allowed."
 
 #: ckan/lib/activity_streams.py:64
-msgid "{actor} added the tag {tag} to the dataset {dataset}"
-msgstr "{actor} added the tag {tag} to the dataset {dataset}"
+msgid "{actor} added the tag {tag} to the benchmark {dataset}"
+msgstr "{actor} added the tag {tag} to the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:67
 msgid "{actor} updated the group {group}"
@@ -772,16 +772,16 @@ msgid "{actor} updated the organization {organization}"
 msgstr "{actor} updated the organisation {organization}"
 
 #: ckan/lib/activity_streams.py:73
-msgid "{actor} updated the dataset {dataset}"
-msgstr "{actor} updated the dataset {dataset}"
+msgid "{actor} updated the benchmark {dataset}"
+msgstr "{actor} updated the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:76
-msgid "{actor} changed the extra {extra} of the dataset {dataset}"
-msgstr "{actor} changed the extra {extra} of the dataset {dataset}"
+msgid "{actor} changed the extra {extra} of the benchmark {dataset}"
+msgstr "{actor} changed the extra {extra} of the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:79
-msgid "{actor} updated the resource {resource} in the dataset {dataset}"
-msgstr "{actor} updated the resource {resource} in the dataset {dataset}"
+msgid "{actor} updated the resource {resource} in the benchmark {dataset}"
+msgstr "{actor} updated the resource {resource} in the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:82
 msgid "{actor} updated their profile"
@@ -789,8 +789,8 @@ msgstr "{actor} updated their profile"
 
 #: ckan/lib/activity_streams.py:86
 msgid ""
-"{actor} updated the {related_type} {related_item} of the dataset {dataset}"
-msgstr "{actor} updated the {related_type} {related_item} of the dataset {dataset}"
+"{actor} updated the {related_type} {related_item} of the benchmark {dataset}"
+msgstr "{actor} updated the {related_type} {related_item} of the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:89
 msgid "{actor} updated the {related_type} {related_item}"
@@ -805,16 +805,16 @@ msgid "{actor} deleted the organization {organization}"
 msgstr "{actor} deleted the organisation {organization}"
 
 #: ckan/lib/activity_streams.py:98
-msgid "{actor} deleted the dataset {dataset}"
-msgstr "{actor} deleted the dataset {dataset}"
+msgid "{actor} deleted the benchmark {dataset}"
+msgstr "{actor} deleted the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:101
-msgid "{actor} deleted the extra {extra} from the dataset {dataset}"
-msgstr "{actor} deleted the extra {extra} from the dataset {dataset}"
+msgid "{actor} deleted the extra {extra} from the benchmark {dataset}"
+msgstr "{actor} deleted the extra {extra} from the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:104
-msgid "{actor} deleted the resource {resource} from the dataset {dataset}"
-msgstr "{actor} deleted the resource {resource} from the dataset {dataset}"
+msgid "{actor} deleted the resource {resource} from the benchmark {dataset}"
+msgstr "{actor} deleted the resource {resource} from the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:108
 msgid "{actor} created the group {group}"
@@ -825,24 +825,24 @@ msgid "{actor} created the organization {organization}"
 msgstr "{actor} created the organisation {organization}"
 
 #: ckan/lib/activity_streams.py:114
-msgid "{actor} created the dataset {dataset}"
-msgstr "{actor} created the dataset {dataset}"
+msgid "{actor} created the benchmark {dataset}"
+msgstr "{actor} created the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:117
-msgid "{actor} added the extra {extra} to the dataset {dataset}"
-msgstr "{actor} added the extra {extra} to the dataset {dataset}"
+msgid "{actor} added the extra {extra} to the benchmark {dataset}"
+msgstr "{actor} added the extra {extra} to the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:120
-msgid "{actor} added the resource {resource} to the dataset {dataset}"
-msgstr "{actor} added the resource {resource} to the dataset {dataset}"
+msgid "{actor} added the resource {resource} to the benchmark {dataset}"
+msgstr "{actor} added the resource {resource} to the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:123
 msgid "{actor} signed up"
 msgstr "{actor} signed up"
 
 #: ckan/lib/activity_streams.py:126
-msgid "{actor} removed the tag {tag} from the dataset {dataset}"
-msgstr "{actor} removed the tag {tag} from the dataset {dataset}"
+msgid "{actor} removed the tag {tag} from the benchmark {dataset}"
+msgstr "{actor} removed the tag {tag} from the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:129
 msgid "{actor} deleted the related item {related_item}"
@@ -862,8 +862,8 @@ msgstr "{actor} started following {group}"
 
 #: ckan/lib/activity_streams.py:142
 msgid ""
-"{actor} added the {related_type} {related_item} to the dataset {dataset}"
-msgstr "{actor} added the {related_type} {related_item} to the dataset {dataset}"
+"{actor} added the {related_type} {related_item} to the benchmark {dataset}"
+msgstr "{actor} added the {related_type} {related_item} to the benchmark {dataset}"
 
 #: ckan/lib/activity_streams.py:145
 msgid "{actor} added the {related_type} {related_item}"
@@ -1041,8 +1041,8 @@ msgid "Unnamed resource"
 msgstr "Unnamed resource"
 
 #: ckan/lib/helpers.py:1250
-msgid "Created new dataset."
-msgstr "Created new dataset."
+msgid "Created new benchmark."
+msgstr "Created new benchmark."
 
 #: ckan/lib/helpers.py:1252
 msgid "Edited resources."
@@ -1163,7 +1163,7 @@ msgstr "User"
 #: ckan/logic/validators.py:188 ckan/templates/package/read_base.html:19
 #: ckanext/stats/templates/ckanext/stats/index.html:89
 msgid "Dataset"
-msgstr "Dataset"
+msgstr "Benchmark"
 
 #: ckan/logic/converters.py:169 ckan/logic/validators.py:241
 #: ckanext/stats/templates/ckanext/stats/index.html:113
@@ -1183,8 +1183,8 @@ msgid "Organization does not exist"
 msgstr "Organisation does not exist"
 
 #: ckan/logic/validators.py:49
-msgid "You cannot add a dataset to this organization"
-msgstr "You cannot add a dataset to this organisation"
+msgid "You cannot add a benchmark to this organization"
+msgstr "You cannot add a benchmark to this organisation"
 
 #: ckan/logic/validators.py:89
 msgid "Invalid integer"
@@ -1208,7 +1208,7 @@ msgstr "No links are allowed in the log_message."
 
 #: ckan/logic/validators.py:156
 msgid "Dataset id already exists"
-msgstr "Dataset id already exists"
+msgstr "Benchmark id already exists"
 
 #: ckan/logic/validators.py:197 ckan/logic/validators.py:288
 msgid "Resource"
@@ -1371,7 +1371,7 @@ msgstr "role does not exist."
 
 #: ckan/logic/validators.py:764
 msgid "Datasets with no organization can't be private."
-msgstr "Datasets with no organisation can't be private."
+msgstr "Benchmarks with no organisation can't be private."
 
 #: ckan/logic/validators.py:770
 msgid "Not a list"
@@ -1451,8 +1451,8 @@ msgid "You are already following {0}"
 msgstr "You are already following {0}"
 
 #: ckan/logic/action/create.py:1371 ckan/logic/action/create.py:1379
-msgid "You must be logged in to follow a dataset."
-msgstr "You must be logged in to follow a dataset."
+msgid "You must be logged in to follow a benchmark."
+msgstr "You must be logged in to follow a benchmark."
 
 #: ckan/logic/action/create.py:1431
 msgid "User {username} does not exist."
@@ -1556,8 +1556,8 @@ msgstr "User %s not authorised to edit these groups"
 
 #: ckan/logic/auth/create.py:36
 #, python-format
-msgid "User %s not authorized to add dataset to this organization"
-msgstr "User %s not authorised to add dataset to this organisation"
+msgid "User %s not authorized to add benchmark to this organization"
+msgstr "User %s not authorised to add benchmark to this organisation"
 
 #: ckan/logic/auth/create.py:58
 msgid "You must be a sysadmin to create a featured related item"
@@ -1568,8 +1568,8 @@ msgid "You must be logged in to add a related item"
 msgstr "You must be logged in to add a related item"
 
 #: ckan/logic/auth/create.py:77
-msgid "No dataset id provided, cannot check auth."
-msgstr "No dataset id provided, cannot check auth."
+msgid "No benchmark id provided, cannot check auth."
+msgstr "No benchmark id provided, cannot check auth."
 
 #: ckan/logic/auth/create.py:84 ckan/logic/auth/delete.py:32
 #: ckan/logic/auth/get.py:135 ckan/logic/auth/update.py:61
@@ -1578,8 +1578,8 @@ msgstr "No package found for this resource, cannot check auth."
 
 #: ckan/logic/auth/create.py:92
 #, python-format
-msgid "User %s not authorized to create resources on dataset %s"
-msgstr "User %s not authorised to create resources on dataset %s"
+msgid "User %s not authorized to create resources on benchmark %s"
+msgstr "User %s not authorised to create resources on benchmark %s"
 
 #: ckan/logic/auth/create.py:124
 #, python-format
@@ -2139,11 +2139,11 @@ msgstr "Register"
 #: ckan/templates/user/read.html:5 ckan/templates/user/read_base.html:19
 #: ckan/templates/user/read_base.html:53
 msgid "Datasets"
-msgstr "Datasets"
+msgstr "Benchmarks"
 
 #: ckan/templates/header.html:116
 msgid "Search Datasets"
-msgstr "Search Datasets"
+msgstr "Search Benchmarks"
 
 #: ckan/templates/header.html:117 ckan/templates/home/snippets/search.html:11
 #: ckan/templates/snippets/simple_search.html:5
@@ -2242,8 +2242,8 @@ msgid "Purge"
 msgstr "Purge"
 
 #: ckan/templates/admin/trash.html:32
-msgid " <p>Purge deleted datasets forever and irreversibly.</p> "
-msgstr " <p>Purge deleted datasets forever and irreversibly.</p> "
+msgid " <p>Purge deleted benchmarks forever and irreversibly.</p> "
+msgstr " <p>Purge deleted benchmarks forever and irreversibly.</p> "
 
 #: ckan/templates/ajax_snippets/api_info.html:19
 msgid "CKAN Data API"
@@ -2635,8 +2635,8 @@ msgstr "What are roles?"
 msgid ""
 " <p><strong>Admin:</strong> Can edit group information, as well as manage "
 "organization members.</p> <p><strong>Member:</strong> Can add/remove "
-"datasets from groups</p> "
-msgstr " <p><strong>Admin:</strong> Can edit group information, as well as manage organisation members.</p> <p><strong>Member:</strong> Can add/remove datasets from groups</p> "
+"benchmarks from groups</p> "
+msgstr " <p><strong>Admin:</strong> Can edit group information, as well as manage organisation members.</p> <p><strong>Member:</strong> Can add/remove benchmarks from groups</p> "
 
 #: ckan/templates/group/new.html:3 ckan/templates/group/new.html:5
 #: ckan/templates/group/new.html:7
@@ -2679,12 +2679,12 @@ msgstr "Popular"
 
 #: ckan/templates/group/read.html:21 ckan/templates/organization/read.html:25
 #: ckan/templates/snippets/search_form.html:3
-msgid "Search datasets..."
-msgstr "Search datasets..."
+msgid "Search benchmarks..."
+msgstr "Search benchmarks..."
 
 #: ckan/templates/group/snippets/feeds.html:3
 msgid "Datasets in group: {group}"
-msgstr "Datasets in group: {group}"
+msgstr "Benchmarks in group: {group}"
 
 #: ckan/templates/group/snippets/feeds.html:4
 #: ckan/templates/organization/snippets/feeds.html:4
@@ -2731,15 +2731,15 @@ msgstr "Save Group"
 #: ckanext/example_theme/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html:22
 msgid "{num} Dataset"
 msgid_plural "{num} Datasets"
-msgstr[0] "{num} Dataset"
-msgstr[1] "{num} Datasets"
+msgstr[0] "{num} Benchmark"
+msgstr[1] "{num} Benchmarks"
 
 #: ckan/templates/group/snippets/group_item.html:34
 #: ckan/templates/organization/snippets/organization_item.html:33
 #: ckanext/example_theme/v10_custom_snippet/templates/snippets/example_theme_most_popular_groups.html:25
 #: ckanext/example_theme/v11_HTML_and_CSS/templates/snippets/example_theme_most_popular_groups.html:24
 msgid "0 Datasets"
-msgstr "0 Datasets"
+msgstr "0 Benchmarks"
 
 #: ckan/templates/group/snippets/group_item.html:38
 #: ckan/templates/group/snippets/group_item.html:39
@@ -2747,8 +2747,8 @@ msgid "View {name}"
 msgstr "View {name}"
 
 #: ckan/templates/group/snippets/group_item.html:43
-msgid "Remove dataset from this group"
-msgstr "Remove dataset from this group"
+msgid "Remove benchmark from this group"
+msgstr "Remove benchmark from this group"
 
 #: ckan/templates/group/snippets/helper.html:4
 msgid "What are Groups?"
@@ -2756,11 +2756,11 @@ msgstr "What are Groups?"
 
 #: ckan/templates/group/snippets/helper.html:8
 msgid ""
-" You can use CKAN Groups to create and manage collections of datasets. This "
-"could be to catalogue datasets for a particular project or team, or on a "
+" You can use CKAN Groups to create and manage collections of benchmarks. This "
+"could be to catalogue benchmarks for a particular project or team, or on a "
 "particular theme, or as a very simple way to help people find and search "
-"your own published datasets. "
-msgstr "You can use CKAN Groups to create and manage collections of datasets. This could be to catalogue datasets for a particular project or team, or on a particular theme, or as a very simple way to help people find and search your own published datasets. "
+"your own published benchmarks. "
+msgstr "You can use CKAN Groups to create and manage collections of benchmarks. This could be to catalogue benchmarks for a particular project or team, or on a particular theme, or as a very simple way to help people find and search your own published benchmarks. "
 
 #: ckan/templates/group/snippets/history_revisions.html:10
 #: ckan/templates/package/snippets/history_revisions.html:10
@@ -2872,11 +2872,11 @@ msgstr "{0} statistics"
 
 #: ckan/templates/home/snippets/stats.html:11
 msgid "dataset"
-msgstr "dataset"
+msgstr "benchmark"
 
 #: ckan/templates/home/snippets/stats.html:11
 msgid "datasets"
-msgstr "datasets"
+msgstr "benchmarks"
 
 #: ckan/templates/home/snippets/stats.html:17
 msgid "organization"
@@ -2937,11 +2937,11 @@ msgstr "Organisation Form"
 #: ckan/templates/organization/bulk_process.html:3
 #: ckan/templates/organization/bulk_process.html:11
 msgid "Edit datasets"
-msgstr "Edit datasets"
+msgstr "Edit benchmarks"
 
 #: ckan/templates/organization/bulk_process.html:6
 msgid "Add dataset"
-msgstr "Add dataset"
+msgstr "Add benchmark"
 
 #: ckan/templates/organization/bulk_process.html:16
 msgid " found for \"{query}\""
@@ -2949,7 +2949,7 @@ msgstr " found for \"{query}\""
 
 #: ckan/templates/organization/bulk_process.html:18
 msgid "Sorry no datasets found for \"{query}\""
-msgstr "Sorry no datasets found for \"{query}\""
+msgstr "Sorry no benchmarks found for \"{query}\""
 
 #: ckan/templates/organization/bulk_process.html:37
 msgid "Make public"
@@ -2976,7 +2976,7 @@ msgstr "Private"
 
 #: ckan/templates/organization/bulk_process.html:88
 msgid "This organization has no datasets associated to it"
-msgstr "This organisation has no datasets associated to it"
+msgstr "This organisation has no benchmarks associated to it"
 
 #: ckan/templates/organization/confirm_delete.html:11
 msgid "Are you sure you want to delete organization - {name}?"
@@ -3026,7 +3026,7 @@ msgid ""
 "edit datasets, but not manage organization members.</p> "
 "<p><strong>Member:</strong> Can view the organization's private datasets, "
 "but not add new datasets.</p> "
-msgstr " <p><strong>Admin:</strong> Can add/edit and delete datasets, as well as manage organisation members.</p> <p><strong>Editor:</strong> Can add and edit datasets, but not manage organisation members.</p> <p><strong>Member:</strong> Can view the organisation's private datasets, but not add new datasets.</p> "
+msgstr " <p><strong>Admin:</strong> Can add/edit and delete benchmarks, as well as manage organisation members.</p> <p><strong>Editor:</strong> Can add and edit benchmarks, but not manage organisation members.</p> <p><strong>Member:</strong> Can view the organisation's private benchmarks, but not add new benchmarks.</p> "
 
 #: ckan/templates/organization/new.html:3
 #: ckan/templates/organization/new.html:5
@@ -3047,11 +3047,11 @@ msgstr "Create Organisation"
 #: ckan/templates/package/search.html:16
 #: ckan/templates/user/dashboard_datasets.html:7
 msgid "Add Dataset"
-msgstr "Add Dataset"
+msgstr "Add Benchmark"
 
 #: ckan/templates/organization/snippets/feeds.html:3
 msgid "Datasets in organization: {group}"
-msgstr "Datasets in organisation: {group}"
+msgstr "Benchmarks in organisation: {group}"
 
 #: ckan/templates/organization/snippets/help.html:4
 #: ckan/templates/organization/snippets/helper.html:4
@@ -3066,14 +3066,14 @@ msgid ""
 "organizations, admins can assign roles and authorise its members, giving "
 "individual users the right to publish datasets from that particular "
 "organisation (e.g. Office of National Statistics).</p> "
-msgstr " <p>Organisations act like publishing departments for datasets (for example, the Department of Health). This means that datasets can be published by and belong to a department instead of an individual user.</p> <p>Within organisations, admins can assign roles and authorise its members, giving individual users the right to publish datasets from that particular organisation (e.g. Office of National Statistics).</p> "
+msgstr " <p>Organisations act like publishing departments for benchmarks (for example, the Department of Health). This means that benchmarks can be published by and belong to a department instead of an individual user.</p> <p>Within organisations, admins can assign roles and authorise its members, giving individual users the right to publish benchmarks from that particular organisation (e.g. Office of National Statistics).</p> "
 
 #: ckan/templates/organization/snippets/helper.html:8
 msgid ""
 " CKAN Organizations are used to create, manage and publish collections of "
 "datasets. Users can have different roles within an Organization, depending "
 "on their level of authorisation to create, edit and publish. "
-msgstr " CKAN Organisations are used to create, manage and publish collections of datasets. Users can have different roles within an Organisation, depending on their level of authorisation to create, edit and publish. "
+msgstr " CKAN Organisations are used to create, manage and publish collections of benchmarks. Users can have different roles within an Organisation, depending on their level of authorisation to create, edit and publish. "
 
 #: ckan/templates/organization/snippets/organization_form.html:10
 msgid "My Organization"
@@ -3091,7 +3091,7 @@ msgstr "A little information about my organisation..."
 msgid ""
 "Are you sure you want to delete this Organization? This will delete all the "
 "public and private datasets belonging to this organization."
-msgstr "Are you sure you want to delete this Organisation? This will delete all the public and private datasets belonging to this organisation."
+msgstr "Are you sure you want to delete this Organisation? This will delete all the public and private benchmarks belonging to this organisation."
 
 #: ckan/templates/organization/snippets/organization_form.html:64
 msgid "Save Organization"
@@ -3105,22 +3105,22 @@ msgstr "View {organization_name}"
 #: ckan/templates/package/base.html:22 ckan/templates/package/new.html:3
 #: ckan/templates/package/snippets/new_package_breadcrumb.html:2
 msgid "Create Dataset"
-msgstr "Create Dataset"
+msgstr "Create Benchmark"
 
 #: ckan/templates/package/base_form_page.html:22
 msgid "What are datasets?"
-msgstr "What are datasets?"
+msgstr "What are benchmarks?"
 
 #: ckan/templates/package/base_form_page.html:25
 msgid ""
 " A CKAN Dataset is a collection of data resources (such as files), together "
 "with a description and other information, at a fixed URL. Datasets are what "
 "users see when searching for data. "
-msgstr " A CKAN Dataset is a collection of data resources (such as files), together with a description and other information, at a fixed URL. Datasets are what users see when searching for data. "
+msgstr " A CKAN Benchmark is a collection of data resources (such as files), together with a description and other information, at a fixed URL. Benchmarks are what users see when searching for data. "
 
 #: ckan/templates/package/confirm_delete.html:11
 msgid "Are you sure you want to delete dataset - {name}?"
-msgstr "Are you sure you want to delete dataset - {name}?"
+msgstr "Are you sure you want to delete benchmark - {name}?"
 
 #: ckan/templates/package/confirm_delete_resource.html:11
 msgid "Are you sure you want to delete resource - {name}?"
@@ -3128,7 +3128,7 @@ msgstr "Are you sure you want to delete resource - {name}?"
 
 #: ckan/templates/package/edit_base.html:16
 msgid "View dataset"
-msgstr "View dataset"
+msgstr "View benchmark"
 
 #: ckan/templates/package/edit_base.html:20
 msgid "Edit metadata"
@@ -3154,7 +3154,7 @@ msgstr "Update"
 
 #: ckan/templates/package/group_list.html:14
 msgid "Associate this group with this dataset"
-msgstr "Associate this group with this dataset"
+msgstr "Associate this group with this benchmark"
 
 #: ckan/templates/package/group_list.html:14
 msgid "Add to group"
@@ -3162,15 +3162,15 @@ msgstr "Add to group"
 
 #: ckan/templates/package/group_list.html:23
 msgid "There are no groups associated with this dataset"
-msgstr "There are no groups associated with this dataset"
+msgstr "There are no groups associated with this benchmark"
 
 #: ckan/templates/package/new_package_form.html:15
 msgid "Update Dataset"
-msgstr "Update Dataset"
+msgstr "Update Benchmark"
 
 #: ckan/templates/package/new_resource.html:5
 msgid "Add data to the dataset"
-msgstr "Add data to the dataset"
+msgstr "Add data to the benchmark"
 
 #: ckan/templates/package/new_resource.html:11
 #: ckan/templates/package/new_resource_not_draft.html:8
@@ -3212,7 +3212,7 @@ msgstr "Add"
 msgid ""
 "This is an old revision of this dataset, as edited at %(timestamp)s. It may "
 "differ significantly from the <a href=\"%(url)s\">current revision</a>."
-msgstr "This is an old revision of this dataset, as edited at %(timestamp)s. It may differ significantly from the <a href=\"%(url)s\">current revision</a>."
+msgstr "This is an old revision of this benchmark, as edited at %(timestamp)s. It may differ significantly from the <a href=\"%(url)s\">current revision</a>."
 
 #: ckan/templates/package/related_list.html:7
 msgid "Related Media for {dataset}"
@@ -3310,7 +3310,7 @@ msgstr "URL:"
 
 #: ckan/templates/package/resource_read.html:69
 msgid "From the dataset abstract"
-msgstr "From the dataset abstract"
+msgstr "From the benchmark abstract"
 
 #: ckan/templates/package/resource_read.html:71
 #, python-format
@@ -3402,7 +3402,7 @@ msgstr "Add new resource"
 msgid ""
 " <p class=\"empty\">This dataset has no data, <a href=\"%(url)s\">why not "
 "add some?</a></p> "
-msgstr " <p class=\"empty\">This dataset has no data, <a href=\"%(url)s\">why not add some?</a></p> "
+msgstr " <p class=\"empty\">This benchmark has no data, <a href=\"%(url)s\">why not add some?</a></p> "
 
 #: ckan/templates/package/search.html:52
 msgid "API"
@@ -3488,7 +3488,7 @@ msgstr "eg. A descriptive title"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:13
 msgid "eg. my-dataset"
-msgstr "eg. my-dataset"
+msgstr "eg. my-benchmark"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:19
 msgid "eg. Some useful notes about the data"
@@ -3532,11 +3532,11 @@ msgid ""
 "agree to release the <i>metadata</i> values that you enter into the form "
 "under the <a href=\"http://opendatacommons.org/licenses/odbl/1-0/\">Open "
 "Database License</a>."
-msgstr "The <i>data license</i> you select above only applies to the contents of any resource files that you add to this dataset. By submitting this form, you agree to release the <i>metadata</i> values that you enter into the form under the <a href=\"http://opendatacommons.org/licenses/odbl/1-0/\">Open Database License</a>."
+msgstr "The <i>data license</i> you select above only applies to the contents of any resource files that you add to this benchmark. By submitting this form, you agree to release the <i>metadata</i> values that you enter into the form under the <a href=\"http://opendatacommons.org/licenses/odbl/1-0/\">Open Database License</a>."
 
 #: ckan/templates/package/snippets/package_form.html:39
 msgid "Are you sure you want to delete this dataset?"
-msgstr "Are you sure you want to delete this dataset?"
+msgstr "Are you sure you want to delete this benchmark?"
 
 #: ckan/templates/package/snippets/package_form.html:44
 msgid "Next: Add Data"
@@ -3544,7 +3544,7 @@ msgstr "Next: Add Data"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:6
 msgid "http://example.com/dataset.json"
-msgstr "http://example.com/dataset.json"
+msgstr "http://example.com/benchmark.json"
 
 #: ckan/templates/package/snippets/package_metadata_fields.html:10
 msgid "1.0"
@@ -3688,17 +3688,17 @@ msgstr "Data and Resources"
 
 #: ckan/templates/package/snippets/resources_list.html:29
 msgid "This dataset has no data"
-msgstr "This dataset has no data"
+msgstr "This benchmark has no data"
 
 #: ckan/templates/package/snippets/revisions_table.html:24
 #, python-format
 msgid "Read dataset as of %s"
-msgstr "Read dataset as of %s"
+msgstr "Read benchmark as of %s"
 
 #: ckan/templates/package/snippets/stages.html:23
 #: ckan/templates/package/snippets/stages.html:25
 msgid "Create dataset"
-msgstr "Create dataset"
+msgstr "Create benchmark"
 
 #: ckan/templates/package/snippets/stages.html:30
 #: ckan/templates/package/snippets/stages.html:34
@@ -3770,7 +3770,7 @@ msgstr "Changes"
 
 #: ckan/templates/revision/read.html:74
 msgid "Datasets' Tags"
-msgstr "Datasets' Tags"
+msgstr "Benchmarks' Tags"
 
 #: ckan/templates/revision/snippets/revisions_list.html:7
 msgid "Entity"
@@ -3841,7 +3841,7 @@ msgstr "No License Provided"
 
 #: ckan/templates/snippets/license.html:28
 msgid "This dataset satisfies the Open Definition."
-msgstr "This dataset satisfies the Open Definition."
+msgstr "This benchmark satisfies the Open Definition."
 
 #: ckan/templates/snippets/organization.html:48
 msgid "There is no description for this organization"
@@ -3849,13 +3849,13 @@ msgstr "There is no description for this organisation"
 
 #: ckan/templates/snippets/package_item.html:57
 msgid "This dataset has no description"
-msgstr "This dataset has no description"
+msgstr "This benchmark has no description"
 
 #: ckan/templates/snippets/related.html:15
 msgid ""
 "No apps, ideas, news stories or images have been related to this dataset "
 "yet."
-msgstr "No apps, ideas, news stories or images have been related to this dataset yet."
+msgstr "No apps, ideas, news stories or images have been related to this benchmark yet."
 
 #: ckan/templates/snippets/related.html:18
 msgid "Add Item"
@@ -3888,22 +3888,22 @@ msgstr " <p><strong>There was an error while searching.</strong> Please try agai
 #: ckan/templates/snippets/search_result_text.html:15
 msgid "{number} dataset found for \"{query}\""
 msgid_plural "{number} datasets found for \"{query}\""
-msgstr[0] "{number} dataset found for \"{query}\""
-msgstr[1] "{number} datasets found for \"{query}\""
+msgstr[0] "{number} benchmark found for \"{query}\""
+msgstr[1] "{number} benchmarks found for \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:16
 msgid "No datasets found for \"{query}\""
-msgstr "No datasets found for \"{query}\""
+msgstr "No benchmarks found for \"{query}\""
 
 #: ckan/templates/snippets/search_result_text.html:17
 msgid "{number} dataset found"
 msgid_plural "{number} datasets found"
-msgstr[0] "{number} dataset found"
-msgstr[1] "{number} datasets found"
+msgstr[0] "{number} benchmark found"
+msgstr[1] "{number} benchmarks found"
 
 #: ckan/templates/snippets/search_result_text.html:18
 msgid "No datasets found"
-msgstr "No datasets found"
+msgstr "No benchmarks found"
 
 #: ckan/templates/snippets/search_result_text.html:21
 msgid "{number} group found for \"{query}\""
@@ -3980,7 +3980,7 @@ msgstr "News feed"
 #: ckan/templates/user/dashboard.html:20
 #: ckan/templates/user/dashboard_datasets.html:12
 msgid "My Datasets"
-msgstr "My Datasets"
+msgstr "My Benchmarks"
 
 #: ckan/templates/user/dashboard.html:21
 #: ckan/templates/user/dashboard_organizations.html:12
@@ -3999,7 +3999,7 @@ msgstr "Activity from items that I'm following"
 #: ckan/templates/user/dashboard_datasets.html:17
 #: ckan/templates/user/read.html:14
 msgid "You haven't created any datasets."
-msgstr "You haven't created any datasets."
+msgstr "You haven't created any benchmarks."
 
 #: ckan/templates/user/dashboard_datasets.html:19
 #: ckan/templates/user/dashboard_groups.html:22
@@ -4170,7 +4170,7 @@ msgstr "Why Sign Up?"
 
 #: ckan/templates/user/new.html:28
 msgid "Create datasets, groups and other exciting things"
-msgstr "Create datasets, groups and other exciting things"
+msgstr "Create benchmarks, groups and other exciting things"
 
 #: ckan/templates/user/new_user_form.html:5
 msgid "username"
@@ -4208,7 +4208,7 @@ msgstr "Simply enter a new password and we'll update your account"
 
 #: ckan/templates/user/read.html:21
 msgid "User hasn't created any datasets."
-msgstr "User hasn't created any datasets."
+msgstr "User hasn't created any benchmarks."
 
 #: ckan/templates/user/read_base.html:39
 msgid "You have not provided a biography."
@@ -4307,7 +4307,7 @@ msgstr "User {0} not authorised to update resource {1}"
 
 #: ckanext/example_iconfigurer/templates/admin/config.html:11
 msgid "Datasets per page"
-msgstr "Datasets per page"
+msgstr "Benchmarks per page"
 
 #: ckanext/example_iconfigurer/templates/admin/config.html:13
 msgid "Test conf"
@@ -4438,7 +4438,7 @@ msgstr "Cluster markers"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:10
 msgid "Total number of Datasets"
-msgstr "Total number of Datasets"
+msgstr "Total number of Benchmarks"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:17
 #: ckanext/stats/templates/ckanext/stats/index.html:40
@@ -4447,25 +4447,25 @@ msgstr "Date"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:18
 msgid "Total datasets"
-msgstr "Total datasets"
+msgstr "Total benchmarks"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:33
 #: ckanext/stats/templates/ckanext/stats/index.html:179
 msgid "Dataset Revisions per Week"
-msgstr "Dataset Revisions per Week"
+msgstr "Benchmark Revisions per Week"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:41
 msgid "All dataset revisions"
-msgstr "All dataset revisions"
+msgstr "All benchmark revisions"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:42
 msgid "New datasets"
-msgstr "New datasets"
+msgstr "New benchmarks"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:58
 #: ckanext/stats/templates/ckanext/stats/index.html:180
 msgid "Top Rated Datasets"
-msgstr "Top Rated Datasets"
+msgstr "Top Rated Benchmarks"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:64
 msgid "Average rating"
@@ -4482,7 +4482,7 @@ msgstr "No ratings"
 #: ckanext/stats/templates/ckanext/stats/index.html:84
 #: ckanext/stats/templates/ckanext/stats/index.html:181
 msgid "Most Edited Datasets"
-msgstr "Most Edited Datasets"
+msgstr "Most Edited Benchmarks"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:90
 msgid "Number of edits"
@@ -4490,7 +4490,7 @@ msgstr "Number of edits"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:103
 msgid "No edited datasets"
-msgstr "No edited datasets"
+msgstr "No edited benchmarks"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:108
 #: ckanext/stats/templates/ckanext/stats/index.html:182
@@ -4499,7 +4499,7 @@ msgstr "Largest Groups"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:114
 msgid "Number of datasets"
-msgstr "Number of datasets"
+msgstr "Number of benchmarks"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:127
 msgid "No groups"
@@ -4517,12 +4517,12 @@ msgstr "Tag Name"
 #: ckanext/stats/templates/ckanext/stats/index.html:137
 #: ckanext/stats/templates/ckanext/stats/index.html:157
 msgid "Number of Datasets"
-msgstr "Number of Datasets"
+msgstr "Number of Benchmarks"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:152
 #: ckanext/stats/templates/ckanext/stats/index.html:184
 msgid "Users Creating Most Datasets"
-msgstr "Users Creating Most Datasets"
+msgstr "Users Creating Most Benchmarks"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:175
 msgid "Statistics Menu"
@@ -4530,7 +4530,7 @@ msgstr "Statistics Menu"
 
 #: ckanext/stats/templates/ckanext/stats/index.html:178
 msgid "Total Number of Datasets"
-msgstr "Total Number of Datasets"
+msgstr "Total Number of Benchmarks"
 
 #: ckanext/textview/plugin.py:65 ckanext/textview/plugin.py:67
 msgid "Text"

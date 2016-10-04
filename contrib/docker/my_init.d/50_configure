@@ -26,7 +26,7 @@ write_config () {
       "ckan.storage_path = /var/lib/ckan" \
       "email_to = disabled@example.com" \
       "error_email_from = ckan@$(hostname -f)" \
-      "ckan.site_url = http://192.168.0.6" \
+      "ckan.site_url = ${SITE_URL}" \
       "ckan.locale_default = en_GB" \
       "ckan.locales_filtered_out = en" \
       "ckan.recaptcha.version = 1" \

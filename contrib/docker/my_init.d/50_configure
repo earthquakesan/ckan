@@ -29,7 +29,6 @@ write_config () {
       "ckan.site_url = ${SITE_URL}" \
       "ckan.locale_default = en_GB" \
       "ckan.locales_filtered_out = en" \
-      "ckan.recaptcha.version = 2" \
       "ckan.recaptcha.publickey = ${RECAPTCHA_PUBLIC_KEY}" \
       "ckan.recaptcha.privatekey = ${RECAPTCHA_PRIVATE_KEY}" \
       "ckan.auth.user_create_groups = true" \

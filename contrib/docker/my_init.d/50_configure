@@ -10,7 +10,7 @@
 
 set -eu
 
-CONFIG="${CKAN_CONFIG}/production.ini"
+CONFIG="${CKAN_CONFIG}/ckan.ini"
 
 abort () {
   echo "$@" >&2
@@ -26,7 +26,19 @@ write_config () {
       "ckan.storage_path = /var/lib/ckan" \
       "email_to = disabled@example.com" \
       "error_email_from = ckan@$(hostname -f)" \
-      "ckan.site_url = http://192.168.0.6"
+      "ckan.site_url = ${SITE_URL}" \
+      "ckan.locale_default = en_GB" \
+      "ckan.locales_filtered_out = en" \
+      "ckan.recaptcha.version = 2" \
+      "ckan.recaptcha.publickey = ${RECAPTCHA_PUBLIC_KEY}" \
+      "ckan.recaptcha.privatekey = ${RECAPTCHA_PRIVATE_KEY}" \
+      "ckan.auth.user_create_groups = true" \
+      "ckan.auth.user_delete_groups = true" \
+      "ckan.auth.user_create_organizations = false" \
+      "ckan.auth.user_delete_organizations = false" \
+      "ckan.auth.create_unowned_dataset = true" \
+      "ckan.auth.create_dataset_if_not_in_organization = true"
+
 
   if [ -n "$ERROR_EMAIL" ]; then
     sed -i -e "s&^#email_to.*&email_to = ${ERROR_EMAIL}&" "$CONFIG"
@@ -35,7 +47,7 @@ write_config () {
 
 link_postgres_url () {
   local user=$DB_ENV_POSTGRES_USER
-  local pass=$DB_ENV_POSTGRES_PASSWORD
+  local pass=$DB_ENV_POSTGRES_PASS
   local db=$DB_ENV_POSTGRES_DB
   local host=$DB_PORT_5432_TCP_ADDR
   local port=$DB_PORT_5432_TCP_PORT

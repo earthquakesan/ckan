@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  ckan-db:
+    image: postgres:9.6.0
+    environment:
+      - POSTGRES_USER=ckan_default
+      - POSTGRES_PASSWORD=pass
+      - PGDATA=/var/lib/postgresql/data
+      - POSTGRES_DB=ckan_default
+    ports:
+      - 5432:5432
+
+  ckan-solr:
+    image: earthquakesan/ckan-solr:2.8.0
+    ports:
+      - 8983:8983
+
+  ckan-redis:
+    image: redis:4.0.11
+    ports:
+      - 6379:6379
+  
+  #ckan-datapusher:
+  #  image: earthquakesan/ckan-datapusher:latest
+  #  restart: always
+  #  ports: 
+  #    - 8800:8800
